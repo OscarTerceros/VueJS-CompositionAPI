@@ -30,7 +30,7 @@ const createHero = ( args: CreateHeroArgs ) => ({
   name: args.name,
   age: args.age,
   hobbies: args.hobbies,
-  power: args.power ?? 'No tiene poder',
+  power: args.power ?? 'No tiene poder', //El operador ?? sirve para asignar un valor por defecto
 });
 
 console.log( createHero( person ) );
